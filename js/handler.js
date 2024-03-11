@@ -52,7 +52,7 @@ function fillInData() {
     // 4, Update the category which the user selected
     selectedCategoryIndex = document.querySelector('#category').value;
 
-    // 5, Fill in
+    // 5, Fill in data
     let data = Tools.SortData(rawData, order, categories, selectedCategoryIndex);
     Tools.GenerateDataCards(data);
 }
