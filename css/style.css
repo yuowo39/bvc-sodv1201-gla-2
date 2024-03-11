@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: monospace;
+    text-align: center;
+    color: #232323;
+}
+
+main {
+    width: 80vw;
+    margin: 0 auto;
+}
+
+header {
+    background: #232323;
+    color: white;
+    padding-bottom: 20px;
+}
+
+button {
+    padding: 5px 10px;
+    margin: 10px 0;
+    color: white;
+    font-size: medium;
+    font-family: monospace;
+    background-color: #232323;
+    border-radius: 10px;
+}
+
+button:hover {
+    color: lawngreen;
+}
+
+input {
+    padding: 2px;
+    font-size: large;
+}
+
+h1 {
+    padding: 20px 0;
+}
+
+footer {
+    background: #232323;
+    color: white;
+    margin-top: 20px;
+    font-weight: lighter;
+    padding: 20px 0;
+
+}
+
+a {
+    font-weight: bold;
+    color: white;
+}
+
+a:link, a:visited {
+    color: white;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: forestgreen;
+    text-decoration: none;
+}
+
+fieldset {
+    border: #232323 solid 1px;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+legend, label, select {
+    font-size: large;
+}
+
+.data-card {
+    border: #232323 solid 1px;
+    border-radius: 10px;
+    display: flex;
+    margin: 15px 0;
+}
+
+.card-body {
+    width: 45vw;
+    padding: 20px 10px;
+}
+
+.card-image {
+    width: 35vw;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.card-img {
+    margin: auto 0;
+    width: 24vw;
+    height: fit-content;
+}
+
+.card-title {
+    font-size: x-large;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.card-price {
+    font-size: large;
+    margin-bottom: 15px;
+}
+
+.card-description {
+    margin-bottom: 30px;
+}
+
+.card-category {
+    font-style: italic;
+    margin-bottom: 40px;
+}
+
+.card-rating {
+    font-size: large;
+    font-weight: bold;
+    margin-bottom: 10px;
+}

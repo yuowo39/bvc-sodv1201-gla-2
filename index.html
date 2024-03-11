@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Data</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<header>
+    <h1>Products</h1>
+    <p>Data from <a href="https://fakestoreapi.com/products" target="_blank">https://fakestoreapi.com/products</a></p>
+</header>
+<main>
+<div id="controller">
+    <fieldset>
+        <legend>API</legend>
+        <input type="radio" id="api-ajax" name="api" value="ajax" checked>
+        <label for="api-ajax">AJAX</label>
+        <input type="radio" id="api-fetch-api" name="api" value="fetch-api">
+        <label for="api-fetch-api">Fetch API</label>
+        <input type="radio" id="api-jquery" name="api" value="jquery">
+        <label for="api-jquery">jQuery</label>
+        <br>
+        <button id="apply-api">Apply</button>
+    </fieldset>
+    <fieldset>
+        <legend>Sort By Price</legend>
+        <input type="radio" id="order-asc" name="order" value="asc" checked>
+        <label for="order-asc">Ascending</label>
+        <input type="radio" id="order-desc" name="order" value="desc">
+        <label for="order-desc">Descending</label>
+    </fieldset>
+    <fieldset>
+        <legend>Category</legend>
+        <select id="category">
+        </select>
+    </fieldset>
+</div>
+<div id="data"></div>
+</main>
+<footer>
+    <p>© Yu 2024</p>
+</footer>
+<script src="./libs/jquery/jquery-3.7.1.min.js"></script>
+<script type="module" src="./js/handler.js"></script>
+</body>
+</html>
